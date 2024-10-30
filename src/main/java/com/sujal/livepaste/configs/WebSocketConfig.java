@@ -18,7 +18,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/ws").setAllowedOrigins("http://localhost:5173","https://livepaste.sujalbhavsar.in","https://live-paste-frontend.vercel.app");
+        registry.addEndpoint("/ws").setAllowedOrigins("http://localhost:5173","https://livepaste.sujalbhavsar.in","https://live-paste-frontend.vercel.app","https://livepaste.netlify.app","https://livepaste.vercel.app");
     }
 }
 
