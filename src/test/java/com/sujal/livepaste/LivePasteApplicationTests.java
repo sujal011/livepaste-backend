@@ -8,6 +8,7 @@ class LivePasteApplicationTests {
 
     @Test
     void contextLoads() {
+        return;
     }
 
 }
